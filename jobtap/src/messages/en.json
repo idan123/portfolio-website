@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "JobTap — Connecting Bartenders with Events",
+    "description": "Bartender? Find shifts near you. Planning an event? Find the bartender you need. All through WhatsApp — fast, simple, Israeli."
+  },
+  "nav": {
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Connecting bartenders with events",
+    "line1": "Bartender? Find shifts near you.",
+    "line2": "Planning an event? Find the bartender you need.",
+    "line3": "All through WhatsApp — fast, simple, Israeli.",
+    "cta": "Join as a Bartender"
+  },
+  "footer": {
+    "rights": "© 2026 JobTap. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "email": "idan@jobtap.co.il",
+    "phone": "053-5649140"
+  }
+}
