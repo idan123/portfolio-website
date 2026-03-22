@@ -12,7 +12,7 @@ export default function Hero() {
 
       <div className="relative max-w-2xl mx-auto px-6 text-center">
         <motion.p
-          className="text-base sm:text-lg text-muted mb-6"
+          className="text-base sm:text-lg text-muted mb-6 uppercase tracking-widest"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
@@ -35,26 +35,13 @@ export default function Hero() {
         </motion.div>
 
         <motion.p
-          className="text-base sm:text-lg text-muted mb-12"
+          className="text-base sm:text-lg text-muted"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           {t("line3")}
         </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-        >
-          <a
-            href="#"
-            className="inline-block text-sm font-medium bg-accent text-background rounded-full px-8 py-3 hover:bg-accent/90 transition-colors"
-          >
-            {t("cta")}
-          </a>
-        </motion.div>
       </div>
     </section>
   );

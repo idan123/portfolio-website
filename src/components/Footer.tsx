@@ -9,17 +9,12 @@ export default function Footer() {
   return (
     <footer className="border-t border-border/50 py-8">
       <div className="max-w-5xl mx-auto px-6 flex flex-col items-center gap-4 text-center">
-        <div className="flex items-center gap-6">
-          <a
-            href={`mailto:${t("email")}`}
-            className="text-sm text-muted hover:text-foreground transition-colors"
-          >
-            {t("email")}
-          </a>
-          <span className="text-sm text-muted">
-            {t("phone")}
-          </span>
-        </div>
+        <a
+          href={`mailto:${t("email")}`}
+          className="text-sm text-muted hover:text-foreground transition-colors"
+        >
+          {t("email")}
+        </a>
 
         <div className="flex items-center gap-4">
           <a
